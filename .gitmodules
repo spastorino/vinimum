@@ -12,3 +12,6 @@
 [submodule "plugins/fugitive"]
 	path = plugins/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
+[submodule "plugins/gist"]
+	path = plugins/gist
+	url = https://github.com/vim-scripts/Gist.vim.git
