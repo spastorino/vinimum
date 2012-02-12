@@ -18,3 +18,6 @@
 [submodule "plugins/rails"]
 	path = plugins/rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "plugins/ruby"]
+	path = plugins/ruby
+	url = https://github.com/vim-ruby/vim-ruby
