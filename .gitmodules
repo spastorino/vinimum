@@ -15,3 +15,6 @@
 [submodule "plugins/gist"]
 	path = plugins/gist
 	url = https://github.com/vim-scripts/Gist.vim.git
+[submodule "plugins/rails"]
+	path = plugins/rails
+	url = https://github.com/tpope/vim-rails.git
