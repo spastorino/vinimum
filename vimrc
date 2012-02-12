@@ -166,6 +166,7 @@ let c_space_errors = 1
 ""
 
 exe 'source ' . expand('~/.vim/') . 'core/pathogen/autoload/pathogen.vim'
+call pathogen#infect('indent')
 call pathogen#infect('plugins')
 
 " Include user's local vim config
