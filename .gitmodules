@@ -39,3 +39,6 @@
 [submodule "plugins/css-color"]
 	path = plugins/css-color
 	url = https://github.com/ap/vim-css-color.git
+[submodule "plugins/ctrlp"]
+	path = plugins/ctrlp
+	url = https://github.com/kien/ctrlp.vim.git
