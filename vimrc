@@ -169,6 +169,14 @@ exe 'source ' . expand('~/.vim/') . 'core/pathogen/autoload/pathogen.vim'
 call pathogen#infect('indent')
 call pathogen#infect('plugins')
 
+
+""
+"" Gist
+""
+
+let g:gist_clip_command = 'pbcopy'
+
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
