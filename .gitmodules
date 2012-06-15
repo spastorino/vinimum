@@ -45,3 +45,6 @@
 [submodule "plugins/unimpaired"]
 	path = plugins/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "plugins/zoomwin"]
+	path = plugins/zoomwin
+	url = https://github.com/vim-scripts/ZoomWin.git
