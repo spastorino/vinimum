@@ -27,3 +27,6 @@
 [submodule "plugins/matchit"]
 	path = plugins/matchit
 	url = https://github.com/edsono/vim-matchit.git
+[submodule "plugins/nerdtree"]
+	path = plugins/nerdtree
+	url = https://github.com/scrooloose/nerdtree.git
