@@ -36,3 +36,6 @@
 [submodule "plugins/ack"]
 	path = plugins/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "plugins/css-color"]
+	path = plugins/css-color
+	url = https://github.com/ap/vim-css-color.git
