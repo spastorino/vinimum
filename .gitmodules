@@ -33,3 +33,6 @@
 [submodule "plugins/syntastic"]
 	path = plugins/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "plugins/ack"]
+	path = plugins/ack
+	url = https://github.com/mileszs/ack.vim.git
