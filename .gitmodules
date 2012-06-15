@@ -30,3 +30,6 @@
 [submodule "plugins/nerdtree"]
 	path = plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "plugins/syntastic"]
+	path = plugins/syntastic
+	url = https://github.com/scrooloose/syntastic.git
