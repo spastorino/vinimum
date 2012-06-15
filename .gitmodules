@@ -24,3 +24,6 @@
 [submodule "plugins/webapi"]
 	path = plugins/webapi
 	url = https://github.com/mattn/webapi-vim.git
+[submodule "plugins/matchit"]
+	path = plugins/matchit
+	url = https://github.com/edsono/vim-matchit.git
