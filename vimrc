@@ -141,27 +141,6 @@ colorscheme railscasts
 
 
 ""
-"" Ruby
-""
-
-set suffixesadd=.rb                 " comma separated list of suffixes, which are used when searching for a file for the "gf", "[I", etc. commands
-set path+=lib/**,test/**            " list of directories which will be searched when using the |gf|, [f, ]f, ^Wf, |:find|, |:sfind|, |:tabfind| and other commands
-set kp=ri                           " program to use for the |K| command
-
-if has("ruby") " assume system has ruby
-  " Add stdlib of environment's ruby to path
-  let stdlib = system('ruby -rrbconfig -e"print RbConfig::CONFIG[\"rubylibdir\"]"')
-  let &l:path = &path . "," . stdlib
-endif
-
-let g:ruby_path = &path
-
-let ruby_no_expensive = 1           " do not colorize end keyword, this feature could be expensive
-let ruby_space_errors = 1           " highlight trailing whitespace and tabs
-let c_space_errors = 1
-
-
-""
 "" Pathogen & extentions
 ""
 
@@ -182,4 +161,3 @@ let g:gist_clip_command = 'pbcopy'
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
 endif
-
