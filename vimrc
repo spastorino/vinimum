@@ -16,7 +16,7 @@ set clipboard=unnamed
 set mouse=a
 set ttymouse=xterm2
 
-map <Leader>rt :!ctags --extra=+f -R *<CR><CR>
+map <Leader>rt :!ctags -R *<CR><CR>
 
 
 ""
