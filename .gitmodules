@@ -12,6 +12,9 @@
 [submodule "plugins/ack"]
 	path = plugins/ack
 	url = https://github.com/mileszs/ack.vim.git
+[submodule "plugins/bundler"]
+	path = plugins/bundler
+	url = https://github.com/tpope/vim-bundler.git
 [submodule "plugins/css-color"]
 	path = plugins/css-color
 	url = https://github.com/ap/vim-css-color.git
@@ -30,6 +33,9 @@
 [submodule "plugins/nerdtree"]
 	path = plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "plugins/rake"]
+	path = plugins/rake
+	url = git://github.com/tpope/vim-rake.git
 [submodule "plugins/syntastic"]
 	path = plugins/syntastic
 	url = https://github.com/scrooloose/syntastic.git
