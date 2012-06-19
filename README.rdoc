@@ -8,7 +8,7 @@ The project aims to provide the minimum useful set of plugins avoid that ones wh
 
 1. Basic package installation
 
-    git clone https://github.com/spastorino/vinimum.gi://github.com/spastorino/vinimum.git .vim
+    git clone https://github.com/spastorino/vinimum.git .vim
     ls -s .vim/vimrc .vimrc
     cd .vim
     git submodule init
