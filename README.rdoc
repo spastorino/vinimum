@@ -1,0 +1,62 @@
+== Vinimum
+
+A minimal vim config file and plugins distribution.
+
+The project aims to provide the minimum useful set of plugins avoid that ones which discourages using vim the way it is.
+
+== Installation
+
+1. Basic package installation
+
+    git clone https://github.com/spastorino/vinimum.gi://github.com/spastorino/vinimum.git .vim
+    ls -s .vim/vimrc .vimrc
+    cd .vim
+    git submodule init
+    git submodule update
+
+2. Install ctags related things
+    brew install ctags (or use the package manager you like/have)
+    gem install gem-browse
+    gem install gem-ctags
+    gem ctags
+
+3. Generate ctags for Ruby stdlib
+    These are the right directories for rbenv
+    cd ~/.rbenv/versions/1.9.3/lib/ruby/site_ruby/1.9.1/
+    ctags -R *
+    cd ~/.rbenv/versions/1.9.3/lib/ruby/1.9.1/
+    ctags -R *
+
+4. Create git hooks to automatically generate ctags on your projects
+    cd ~
+    mkdir -p .git/hooks
+
+   create ctags file with the following content
+    #!/bin/sh
+    set -e
+    trap "rm -f .git/tags.$$" EXIT
+    ctags --tag-relative -Rf.git/tags.$$ --exclude=.git
+    mv .git/tags.$$ .git/tags
+
+   create post-commit file with the following content
+    #!/bin/sh
+    .git/hooks/ctags >/dev/null 2>&1 &
+
+   generate post-checkout and post-merge with the same content
+    cp post-commit post-checkout
+    cp post-commit post-merge
+
+   create post-rewrite file with the following content
+    #!/bin/sh
+    case "$1" in
+     rebase) exec .git/hooks/post-merge ;;
+    esac
+
+   make the files executable
+    chmod +x *
+
+   config the templatedir and ctags alias
+    git config --global init.templatedir '~/.git'
+    git config --global alias.ctags '!.git/hooks/ctags'
+
+   Use `git init` in existing repositories to copy these hooks in.
