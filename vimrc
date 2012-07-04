@@ -131,6 +131,13 @@ set statusline+=[%b][0x%B]
 
 
 ""
+"" NERDTree
+""
+
+map <Leader>n :NERDTreeToggle<CR>
+
+
+""
 "" Layout
 ""
 
