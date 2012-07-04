@@ -155,7 +155,7 @@ exe 'source ' . expand('~/.vim/') . 'core/pathogen/autoload/pathogen.vim'
 call pathogen#infect('indent')
 call pathogen#infect('plugins')
 call pathogen#infect('langs')
-
+Helptags
 
 ""
 "" Gist
