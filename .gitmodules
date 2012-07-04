@@ -30,6 +30,9 @@
 [submodule "plugins/matchit"]
 	path = plugins/matchit
 	url = https://github.com/edsono/vim-matchit.git
+[submodule "plugins/nerdcommenter"]
+	path = plugins/nerdcommenter
+	url = https://github.com/scrooloose/nerdcommenter.git
 [submodule "plugins/nerdtree"]
 	path = plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
@@ -80,6 +83,9 @@
 [submodule "langs/nodejs"]
 	path = langs/nodejs
 	url = https://github.com/mmalecki/vim-node.js.git
+[submodule "langs/ragel"]
+	path = langs/ragel
+	url = https://github.com/jayferd/ragel.vim.git
 [submodule "langs/rails"]
 	path = langs/rails
 	url = https://github.com/tpope/vim-rails.git
@@ -98,9 +104,3 @@
 [submodule "langs/textile"]
 	path = langs/textile
 	url = https://github.com/timcharper/textile.vim.git
-[submodule "langs/ragel"]
-	path = langs/ragel
-	url = https://github.com/jayferd/ragel.vim.git
-[submodule "plugins/nerdcommenter"]
-	path = plugins/nerdcommenter
-	url = https://github.com/scrooloose/nerdcommenter.git
