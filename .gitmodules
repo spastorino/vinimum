@@ -128,3 +128,6 @@
 [submodule "langs/textile"]
 	path = langs/textile
 	url = https://github.com/timcharper/textile.vim.git
+[submodule "plugins/tcomment"]
+	path = plugins/tcomment
+	url = https://github.com/tomtom/tcomment_vim.git
