@@ -45,6 +45,27 @@
 [submodule "plugins/syntastic"]
 	path = plugins/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "plugins/textobj-entire"]
+	path = plugins/textobj-entire
+	url = https://github.com/kana/vim-textobj-entire.git
+[submodule "plugins/textobj-function"]
+	path = plugins/textobj-function
+	url = https://github.com/kana/vim-textobj-function.git
+[submodule "plugins/textobj-function-ruby"]
+	path = plugins/textobj-function-ruby
+	url = https://github.com/t9md/vim-textobj-function-ruby.git
+[submodule "plugins/textobj-indent"]
+	path = plugins/textobj-indent
+	url = https://github.com/kana/vim-textobj-indent.git
+[submodule "plugins/textobj-line"]
+	path = plugins/textobj-line
+	url = https://github.com/kana/vim-textobj-line.git
+[submodule "plugins/textobj-rubyblock"]
+	path = plugins/textobj-rubyblock
+	url = https://github.com/nelstrom/vim-textobj-rubyblock.git
+[submodule "plugins/textobj-user"]
+	path = plugins/textobj-user
+	url = https://github.com/kana/vim-textobj-user.git
 [submodule "plugins/unimpaired"]
 	path = plugins/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
