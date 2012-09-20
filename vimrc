@@ -38,6 +38,7 @@ set ignorecase  " searches are case insensitive...
 set smartcase   " ... unless they contain at least one capital letter
 set incsearch   " incremental searching
 set hlsearch    " highlight matches with the last used search pattern
+nnoremap <CR> :noh<CR><CR>
 
 
 ""
