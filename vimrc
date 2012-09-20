@@ -139,6 +139,13 @@ map <Leader>n :NERDTreeToggle<CR>
 
 
 ""
+"" Taglist
+""
+
+map <Leader>t :TlistToggle<CR>
+
+
+""
 "" Layout
 ""
 
