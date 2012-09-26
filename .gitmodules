@@ -39,6 +39,9 @@
 [submodule "plugins/rake"]
 	path = plugins/rake
 	url = git://github.com/tpope/vim-rake.git
+[submodule "plugins/rtf_pygmentize"]
+	path = plugins/rtf_pygmentize
+	url = git://github.com/rafaelfranca/rtf_pygmentize.git
 [submodule "plugins/surround"]
 	path = plugins/surround
 	url = https://github.com/tpope/vim-surround.git

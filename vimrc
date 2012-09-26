@@ -146,6 +146,15 @@ map <Leader>t :TlistToggle<CR>
 
 
 ""
+"" RTFPygmentize
+""
+
+" Valid options are: 'default', 'emacs', 'friendly' and 'colorful'
+"let g:rtfp_theme = 'colorful'
+let g:rtfp_font = 'Consolas'
+
+
+""
 "" Layout
 ""
 
