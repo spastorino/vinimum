@@ -28,6 +28,8 @@ set softtabstop=2                 " use mix of spaces and tabs
 set shiftwidth=2                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
 set backspace=indent,eol,start    " backspace through everything in insert mode
+let ruby_space_errors=1
+let c_space_errors=1
 
 
 ""
