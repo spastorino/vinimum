@@ -6,7 +6,7 @@
 # Indent
 [submodule "indent/web-indent"]
 	path = indent/web-indent
-	url = https://github.com/xlevus/vim-web-indent.git
+	url = https://github.com/lukaszb/vim-web-indent.git
 
 # Plugins
 [submodule "plugins/ack"]
