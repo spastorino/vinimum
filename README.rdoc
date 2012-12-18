@@ -33,9 +33,10 @@ The project aims to provide the minimum useful set of plugins avoid that ones wh
 
    create ctags file with the following content
     #!/bin/sh
-    set -e
-    trap "rm -f .git/tags.$$" EXIT
-    ctags --tag-relative -Rf.git/tags.$$ --exclude=.git
+    mkdir .git/tags_lock 2>/dev/null || exit 0
+    trap "rmdir .git/tags_lock; rm .git/tags.$$" EXIT
+
+    ctags --tag-relative -R -f .git/tags.$$ --exclude=.git --languages=-sql
     mv .git/tags.$$ .git/tags
 
    create post-commit file with the following content
