@@ -33,6 +33,14 @@ The project aims to provide the minimum useful set of plugins avoid that ones wh
 
    create ctags file with the following content
     #!/bin/sh
+    IGNORE=("/usr" "${HOME}/.gem" "${HOME}/.rbenv");
+    for dir in "${IGNORE[@]}"
+    do
+      case "$PWD" in
+        ${dir}*) exit 0;;
+      esac
+    done
+
     mkdir .git/tags_lock 2>/dev/null || exit 0
     trap "rmdir .git/tags_lock; rm .git/tags.$$" EXIT
 
