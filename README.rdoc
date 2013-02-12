@@ -22,9 +22,9 @@ The project aims to provide the minimum useful set of plugins avoid that ones wh
 
 3. Generate ctags for Ruby stdlib
     These are the right directories for rbenv
-    cd ~/.rbenv/versions/1.9.3/lib/ruby/site_ruby/1.9.1/
+    cd ~/.rubies/2.0.0/lib/ruby/site_ruby/2.0.0
     ctags -R *
-    cd ~/.rbenv/versions/1.9.3/lib/ruby/1.9.1/
+    cd ~/.rubies/2.0.0/lib/ruby/2.0.0
     ctags -R *
 
 4. Create git hooks to automatically generate ctags on your projects
