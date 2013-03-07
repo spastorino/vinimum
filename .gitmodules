@@ -27,6 +27,9 @@
 [submodule "plugins/gist"]
 	path = plugins/gist
 	url = https://github.com/mattn/gist-vim.git
+[submodule "plugins/gitgutter"]
+	path = plugins/gitgutter
+	url = https://github.com/airblade/vim-gitgutter.git
 [submodule "plugins/matchit"]
 	path = plugins/matchit
 	url = https://github.com/edsono/vim-matchit.git
