@@ -44,7 +44,7 @@ The project aims to provide the minimum useful set of plugins avoid that ones wh
     mkdir .git/tags_lock 2>/dev/null || exit 0
     trap "rmdir .git/tags_lock; rm .git/tags.$$" EXIT
 
-    ctags --tag-relative -R -f .git/tags.$$ --exclude=.git --languages=-sql
+    git ls-files | ctags --tag-relative -f .git/tags.$$ --languages=-sql -L -
     mv .git/tags.$$ .git/tags
 
    create post-commit file with the following content
