@@ -21,6 +21,9 @@
 [submodule "plugins/ctrlp"]
 	path = plugins/ctrlp
 	url = https://github.com/kien/ctrlp.vim.git
+[submodule "plugins/dispatch"]
+	path = plugins/dispatch
+	url = git://github.com/tpope/vim-dispatch.git
 [submodule "plugins/fugitive"]
 	path = plugins/fugitive
 	url = https://github.com/tpope/vim-fugitive.git
