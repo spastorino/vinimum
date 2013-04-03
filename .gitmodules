@@ -57,6 +57,9 @@
 [submodule "plugins/taglist"]
 	path = plugins/taglist
 	url = git://github.com/vim-scripts/taglist.vim.git
+[submodule "plugins/tbone"]
+	path = plugins/tbone
+	url = git://github.com/tpope/vim-tbone.git
 [submodule "plugins/tcomment"]
 	path = plugins/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
