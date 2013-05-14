@@ -183,6 +183,25 @@ Helptags
 let g:gist_clip_command = 'pbcopy'
 
 
+""
+"" ZoomWin
+""
+
+map <Leader><Leader> :ZoomWin<CR>
+
+
+""
+"" Bubble lines
+""
+
+" single lines
+nmap <C-Up> [e
+nmap <C-Down> ]e
+" multiple lines
+vmap <C-Up> [egv
+vmap <C-Down> ]egv
+
+
 " Include user's local vim config
 if filereadable(expand("~/.vimrc.local"))
   source ~/.vimrc.local
