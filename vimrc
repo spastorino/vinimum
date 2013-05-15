@@ -113,25 +113,19 @@ set directory=~/.vim/tmp/swap/      " where to put swap files.
 ""
 
 set laststatus=2
-"set statusline=%t%(\ [%n%M]%)%(\ %H%R%W%)\ %(%c-%v,\ %l\ of\ %L,\ (%o)\ %P\ 0x%B\ (%b)%)
-"set statusline=%{fugitive#statusline()}
 
-" Start the status line
-set statusline=%f\ %m\ %r
-
-" Add fugitive if enabled
-set statusline+=%{fugitive#statusline()}
-
-" Add syntastic if enabled
-"set statusline+=%#warningmsg#
-"set statusline+=%{SyntasticStatuslineFlag()}
-"set statusline+=%*
-
-" Finish the statusline
-set statusline+=Line:%l/%L[%p%%]
-set statusline+=Col:%v
-set statusline+=Buf:#%n
-set statusline+=[%b][0x%B]
+set statusline=
+set statusline+=\ \[%n]\                     "Buffer number
+set statusline+=%<%f\                        "File
+set statusline+=%m%r%h%q%w\                  "Modified? Readonly? Help? Quickfix? Preview?
+set statusline+=%{SyntasticStatuslineFlag()} "Add syntastic if enabled
+set statusline+=%{fugitive#statusline()}\    "Add fugitive if enabled
+set statusline+=%y\                          "FileType
+set statusline+=[%{&fenc!=''?&fenc:&enc}     "Encoding
+set statusline+=%{(&bomb?',bom':'')}]\       "Encoding2
+set statusline+=[%{&ff}]\                    "FileFormat
+set statusline+=%=\ Line:%l/%L\ (%p%%)\ \    "Line/total (%)
+set statusline+=Column:%c\                   "Column
 
 
 ""
