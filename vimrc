@@ -132,6 +132,7 @@ set statusline+=Column:%c\                   "Column
 "" NERDTree
 ""
 
+let g:NERDTreeStatusline = ' '
 map <Leader>n :NERDTreeToggle<CR>
 
 
