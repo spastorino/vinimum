@@ -8,6 +8,7 @@ set ruler                         " show line and column number
 syntax on                         " turn on syntax highlighting allowing local overrides
 set encoding=utf-8                " set default encoding to UTF-8
 set showcmd                       " display incomplete commands
+set number                        " show line numbers
 map Q gq                          " defines the "Q" command to do formatting with the "gq" operator
 
 set clipboard=unnamed
