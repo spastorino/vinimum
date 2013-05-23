@@ -187,6 +187,13 @@ map <Leader><Leader> :ZoomWin<CR>
 
 
 ""
+"" CtrlP
+""
+
+map <C-b> :CtrlPBuffer<CR>
+
+
+""
 "" Bubble lines
 ""
 
