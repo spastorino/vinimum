@@ -172,11 +172,19 @@ call pathogen#infect('plugins/{}')
 call pathogen#infect('langs/{}')
 Helptags
 
+
 ""
 "" Gist
 ""
 
 let g:gist_clip_command = 'pbcopy'
+
+
+""
+"" GitGutter
+""
+
+let g:gitgutter_eager = 0
 
 
 ""
