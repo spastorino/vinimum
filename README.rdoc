@@ -42,7 +42,7 @@ The project aims to provide the minimum useful set of plugins avoid that ones wh
     done
 
     mkdir .git/tags_lock 2>/dev/null || exit 0
-    trap "rmdir .git/tags_lock; rm .git/tags.$$" EXIT
+    trap "rmdir .git/tags_lock; rm -f .git/tags.$$" EXIT
 
     git ls-files | ctags --tag-relative -f .git/tags.$$ --languages=-sql -L -
     mv .git/tags.$$ .git/tags
