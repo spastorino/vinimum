@@ -95,7 +95,7 @@
 	url = https://github.com/mattn/webapi-vim.git
 [submodule "plugins/zoomwin"]
 	path = plugins/zoomwin
-	url = https://github.com/vim-scripts/ZoomWin.git
+	url = https://github.com/regedarek/ZoomWin.git
 
 # Langs
 [submodule "langs/arduino"]
