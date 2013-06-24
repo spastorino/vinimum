@@ -146,6 +146,9 @@
 [submodule "langs/scss"]
 	path = langs/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
+[submodule "langs/slim"]
+	path = langs/slim
+	url = https://github.com/slim-template/vim-slim.git
 [submodule "langs/textile"]
 	path = langs/textile
 	url = https://github.com/timcharper/textile.vim.git
