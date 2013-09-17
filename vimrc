@@ -109,6 +109,14 @@ set directory=~/.vim/tmp/swap/      " where to put swap files.
 
 
 ""
+"" Persistent Undo
+""
+
+set undofile
+set undodir=~/.vim/tmp/undo
+
+
+""
 "" Status line
 ""
 
