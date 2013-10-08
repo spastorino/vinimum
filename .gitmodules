@@ -23,7 +23,7 @@
 	url = https://github.com/kien/ctrlp.vim.git
 [submodule "plugins/dispatch"]
 	path = plugins/dispatch
-	url = git://github.com/tpope/vim-dispatch.git
+	url = https://github.com/tpope/vim-dispatch.git
 [submodule "plugins/file-line"]
 	path = plugins/file-line
 	url = https://github.com/bogado/file-line.git
@@ -47,13 +47,16 @@
 	url = https://github.com/scrooloose/nerdtree.git
 [submodule "plugins/obsession"]
 	path = plugins/obsession
-	url = git://github.com/tpope/vim-obsession.git
+	url = https://github.com/tpope/vim-obsession.git
 [submodule "plugins/rake"]
 	path = plugins/rake
-	url = git://github.com/tpope/vim-rake.git
+	url = https://github.com/tpope/vim-rake.git
 [submodule "plugins/rtf_pygmentize"]
 	path = plugins/rtf_pygmentize
-	url = git://github.com/rafaelfranca/rtf_pygmentize.git
+	url = https://github.com/rafaelfranca/rtf_pygmentize.git
+[submodule "plugins/sbt"]
+	path = plugins/sbt
+	url = https://github.com/ktvoelker/sbt-vim.git
 [submodule "plugins/surround"]
 	path = plugins/surround
 	url = https://github.com/tpope/vim-surround.git
@@ -62,10 +65,10 @@
 	url = https://github.com/scrooloose/syntastic.git
 [submodule "plugins/taglist"]
 	path = plugins/taglist
-	url = git://github.com/vim-scripts/taglist.vim.git
+	url = https://github.com/vim-scripts/taglist.vim.git
 [submodule "plugins/tbone"]
 	path = plugins/tbone
-	url = git://github.com/tpope/vim-tbone.git
+	url = https://github.com/tpope/vim-tbone.git
 [submodule "plugins/tcomment"]
 	path = plugins/tcomment
 	url = https://github.com/tomtom/tcomment_vim.git
@@ -145,7 +148,7 @@
 	url = https://github.com/vim-ruby/vim-ruby.git
 [submodule "langs/scala"]
 	path = langs/scala
-	url = https://github.com/rosstimson/scala-vim-support.git
+	url = https://github.com/derekwyatt/vim-scala.git
 [submodule "langs/scss"]
 	path = langs/scss
 	url = https://github.com/cakebaker/scss-syntax.vim.git
