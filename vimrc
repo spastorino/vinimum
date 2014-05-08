@@ -64,7 +64,8 @@ filetype plugin indent on " turn on filetype plugins (:help filetype-plugin)
 " use real tabs ...
 autocmd FileType make set noexpandtab
 autocmd FileType python set noexpandtab
-autocmd FileType c set noexpandtab
+autocmd FileType c setl tabstop=8 shiftwidth=4 softtabstop=4 noexpandtab
+autocmd FileType ruby setl nowrap tabstop=8 shiftwidth=2 textwidth=0 expandtab
 autocmd FileType cpp set noexpandtab
 
 " Set the Ruby filetype for a number of common Ruby files without .rb
