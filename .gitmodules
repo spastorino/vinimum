@@ -27,6 +27,9 @@
 [submodule "plugins/file-line"]
 	path = plugins/file-line
 	url = https://github.com/bogado/file-line.git
+[submodule "plugins/flex"]
+	path = plugins/flex
+	url = https://github.com/vim-scripts/Flex-Development-Support.git
 [submodule "plugins/fugitive"]
 	path = plugins/fugitive
 	url = https://github.com/tpope/vim-fugitive.git

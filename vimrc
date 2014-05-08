@@ -76,6 +76,8 @@ autocmd BufRead,BufNewFile *.{md,markdown,mdown,mkd,mkdn,txt} setf markdown | ca
 " Treat JSON files like JavaScript
 autocmd BufNewFile,BufRead *.json set filetype=javascript
 
+autocmd BufNewFile,BufRead *.flex set filetype=lex
+
 " Remember last location in file, but not for commit messages.
 " see :help last-position-jump
 autocmd BufReadPost *
