@@ -63,6 +63,9 @@
 [submodule "plugins/sbt"]
 	path = plugins/sbt
 	url = https://github.com/ktvoelker/sbt-vim.git
+[submodule "plugins/snippets"]
+	path = plugins/snippets
+	url = https://github.com/honza/vim-snippets
 [submodule "plugins/surround"]
 	path = plugins/surround
 	url = https://github.com/tpope/vim-surround.git
@@ -102,6 +105,9 @@
 [submodule "plugins/unimpaired"]
 	path = plugins/unimpaired
 	url = https://github.com/tpope/vim-unimpaired.git
+[submodule "plugins/ultisnips"]
+	path = plugins/ultisnips
+	url = https://github.com/SirVer/ultisnips.git
 [submodule "plugins/webapi"]
 	path = plugins/webapi
 	url = https://github.com/mattn/webapi-vim.git
