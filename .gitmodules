@@ -152,6 +152,9 @@
 [submodule "langs/markdown"]
 	path = langs/markdown
 	url = https://github.com/tpope/vim-markdown.git
+[submodule "langs/minitest"]
+	path = langs/minitest
+	url = https://github.com/sunaku/vim-ruby-minitest.git
 [submodule "langs/mustache-handlebars"]
 	path = langs/mustache-handlebars
 	url = https://github.com/mustache/vim-mustache-handlebars.git
