@@ -24,6 +24,9 @@
 [submodule "plugins/dispatch"]
 	path = plugins/dispatch
 	url = https://github.com/tpope/vim-dispatch.git
+[submodule "plugins/endwise"]
+	path = plugins/endwise
+	url = https://github.com/tpope/vim-endwise.git
 [submodule "plugins/file-line"]
 	path = plugins/file-line
 	url = https://github.com/bogado/file-line.git
