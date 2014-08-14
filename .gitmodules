@@ -131,6 +131,9 @@
 [submodule "langs/cucumber"]
 	path = langs/cucumber
 	url = https://github.com/tpope/vim-cucumber.git
+[submodule "langs/elixir"]
+	path = langs/elixir
+	url = https://github.com/elixir-lang/vim-elixir.git
 [submodule "langs/erlang"]
 	path = langs/erlang
 	url = https://github.com/jimenezrick/vimerl.git
