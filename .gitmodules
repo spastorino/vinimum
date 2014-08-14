@@ -9,6 +9,9 @@
 	url = https://github.com/lukaszb/vim-web-indent.git
 
 # Plugins
+[submodule "plugins/abolish"]
+	path = plugins/abolish
+	url = https://github.com/tpope/vim-abolish.git
 [submodule "plugins/ack"]
 	path = plugins/ack
 	url = https://github.com/mileszs/ack.vim.git
