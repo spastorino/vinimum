@@ -84,6 +84,9 @@
 [submodule "plugins/snippets"]
 	path = plugins/snippets
 	url = https://github.com/honza/vim-snippets.git
+[submodule "plugins/speeddating"]
+	path = plugins/speeddating
+	url = https://github.com/tpope/vim-speeddating.git
 [submodule "plugins/surround"]
 	path = plugins/surround
 	url = https://github.com/tpope/vim-surround.git
