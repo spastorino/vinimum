@@ -66,6 +66,9 @@
 [submodule "plugins/rake"]
 	path = plugins/rake
 	url = https://github.com/tpope/vim-rake.git
+[submodule "plugins/repeat"]
+	path = plugins/repeat
+	url = https://github.com/tpope/vim-repeat.git
 [submodule "plugins/rtf_pygmentize"]
 	path = plugins/rtf_pygmentize
 	url = https://github.com/rafaelfranca/rtf_pygmentize.git
