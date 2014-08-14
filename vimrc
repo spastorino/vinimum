@@ -199,6 +199,15 @@ let g:gitgutter_eager = 0
 
 
 ""
+"" Golang
+""
+
+if empty($GOPATH)
+  let g:go_disable_autoinstall = 1
+endif
+
+
+""
 "" ZoomWin
 ""
 
