@@ -149,6 +149,9 @@
 [submodule "langs/nodejs"]
 	path = langs/nodejs
 	url = https://github.com/mmalecki/vim-node.js.git
+[submodule "langs/puppet"]
+	path = langs/puppet
+	url = https://github.com/ajf/puppet-vim.git
 [submodule "langs/ragel"]
 	path = langs/ragel
 	url = https://github.com/jayferd/ragel.vim.git
