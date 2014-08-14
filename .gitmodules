@@ -191,6 +191,9 @@
 [submodule "langs/ruby"]
 	path = langs/ruby
 	url = https://github.com/vim-ruby/vim-ruby.git
+[submodule "langs/rust"]
+	path = langs/rust
+	url = https://github.com/wting/rust.vim.git
 [submodule "langs/scala"]
 	path = langs/scala
 	url = https://github.com/derekwyatt/vim-scala.git
