@@ -65,7 +65,7 @@
 	url = https://github.com/ktvoelker/sbt-vim.git
 [submodule "plugins/snippets"]
 	path = plugins/snippets
-	url = https://github.com/honza/vim-snippets
+	url = https://github.com/honza/vim-snippets.git
 [submodule "plugins/surround"]
 	path = plugins/surround
 	url = https://github.com/tpope/vim-surround.git
