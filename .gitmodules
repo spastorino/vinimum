@@ -140,6 +140,9 @@
 [submodule "langs/javascript"]
 	path = langs/javascript
 	url = https://github.com/pangloss/vim-javascript.git
+[submodule "langs/less"]
+	path = langs/less
+	url = https://github.com/groenewege/vim-less.git
 [submodule "langs/markdown"]
 	path = langs/markdown
 	url = https://github.com/tpope/vim-markdown.git
