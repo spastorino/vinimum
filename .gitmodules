@@ -134,6 +134,9 @@
 [submodule "langs/haml"]
 	path = langs/haml
 	url = https://github.com/tpope/vim-haml.git
+[submodule "langs/haskell"]
+	path = langs/haskell
+	url = https://github.com/wlangstroth/vim-haskell.git
 [submodule "langs/html5"]
 	path = langs/html5
 	url = https://github.com/othree/html5.vim.git
