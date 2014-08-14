@@ -57,6 +57,9 @@
 [submodule "plugins/matchit"]
 	path = plugins/matchit
 	url = https://github.com/edsono/vim-matchit.git
+[submodule "plugins/multiple-cursors"]
+	path = plugins/multiple-cursors
+	url = https://github.com/terryma/vim-multiple-cursors.git
 [submodule "plugins/nerdcommenter"]
 	path = plugins/nerdcommenter
 	url = https://github.com/scrooloose/nerdcommenter.git
