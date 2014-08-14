@@ -182,6 +182,9 @@
 [submodule "langs/rails"]
 	path = langs/rails
 	url = https://github.com/tpope/vim-rails.git
+[submodule "langs/rdoc"]
+	path = langs/rdoc
+	url = https://github.com/depuracao/vim-rdoc.git
 [submodule "langs/rspec"]
 	path = langs/rspec
 	url = https://github.com/skwp/vim-rspec.git
