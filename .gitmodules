@@ -54,6 +54,9 @@
 [submodule "plugins/nerdtree"]
 	path = plugins/nerdtree
 	url = https://github.com/scrooloose/nerdtree.git
+[submodule "plugins/NrrwRgn"]
+	path = plugins/NrrwRgn
+	url = https://github.com/chrisbra/NrrwRgn.git
 [submodule "plugins/obsession"]
 	path = plugins/obsession
 	url = https://github.com/tpope/vim-obsession.git
