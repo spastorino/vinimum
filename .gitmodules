@@ -96,6 +96,9 @@
 [submodule "plugins/syntastic"]
 	path = plugins/syntastic
 	url = https://github.com/scrooloose/syntastic.git
+[submodule "plugins/tagbar"]
+	path = plugins/tagbar
+	url = https://github.com/majutsushi/tagbar.git
 [submodule "plugins/taglist"]
 	path = plugins/taglist
 	url = https://github.com/vim-scripts/taglist.vim.git
