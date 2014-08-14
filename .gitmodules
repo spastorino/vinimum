@@ -119,6 +119,9 @@
 [submodule "langs/arduino"]
 	path = langs/arduino
 	url = https://github.com/vim-scripts/Arduino-syntax-file.git
+[submodule "langs/clojure"]
+	path = langs/clojure
+	url = https://github.com/guns/vim-clojure-static.git
 [submodule "langs/coffeescript"]
 	path = langs/coffeescript
 	url = https://github.com/kchmck/vim-coffee-script.git
