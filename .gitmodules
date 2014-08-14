@@ -137,6 +137,9 @@
 [submodule "langs/handlebars"]
 	path = langs/handlebars
 	url = https://github.com/nono/vim-handlebars.git
+[submodule "langs/html5"]
+	path = langs/html5
+	url = https://github.com/othree/html5.vim.git
 [submodule "langs/javascript"]
 	path = langs/javascript
 	url = https://github.com/pangloss/vim-javascript.git
