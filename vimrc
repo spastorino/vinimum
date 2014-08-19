@@ -1,3 +1,8 @@
+" Include user's local vim before config
+if filereadable(expand("~/.vimrc.before"))
+  source ~/.vimrc.before
+endif
+
 ""
 "" Basic Setup
 ""
@@ -233,7 +238,7 @@ vmap <C-Up> [egv
 vmap <C-Down> ]egv
 
 
-" Include user's local vim config
-if filereadable(expand("~/.vimrc.local"))
-  source ~/.vimrc.local
+" Include user's local vim after config
+if filereadable(expand("~/.vimrc.after"))
+  source ~/.vimrc.after
 endif
