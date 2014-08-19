@@ -22,7 +22,7 @@ The project aims to provide a useful set of plugins avoiding in general the ones
 
 3. Generate ctags for Ruby stdlib
     These are the right directories for rbenv
-    cd ~/.rubies/2.1.2/lib/ruby/site_ruby/2.1.2
+    cd ~/.rubies/2.1.2/lib/ruby/site\_ruby/2.1.2
     ctags -R *
     cd ~/.rubies/2.1.2/lib/ruby/2.1.2
     ctags -R *
@@ -69,3 +69,9 @@ The project aims to provide a useful set of plugins avoiding in general the ones
     git config --global alias.ctags '!.git/hooks/ctags'
 
    Use `git init` in existing repositories to copy these hooks in.
+
+== Disable plugins
+
+If you want to disable a bundled plugin (for example gitgutter) create a ~/.vimrc.before with the following content ...
+
+   let g:pathogen_disabled = ['gitgutter']
