@@ -54,6 +54,9 @@
 [submodule "plugins/gnupg"]
 	path = plugins/gnupg
 	url = https://github.com/jamessan/vim-gnupg.git
+[submodule "plugins/jshint2"]
+	path = plugins/jshint2
+	url = https://github.com/Shutnik/jshint2.vim.git
 [submodule "plugins/matchit"]
 	path = plugins/matchit
 	url = https://github.com/edsono/vim-matchit.git
