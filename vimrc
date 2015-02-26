@@ -29,7 +29,7 @@ map <Leader>rt :!ctags -R *<CR><CR>
 "" Whitespace
 ""
 
-set nowrap                        " don't wrap lines
+set wrap                          " wrap lines, use set nowrap to avoid wrapping
 set softtabstop=2                 " use mix of spaces and tabs
 set shiftwidth=2                  " an autoindent (with <<) is two spaces
 set expandtab                     " use spaces, not tabs
