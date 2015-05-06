@@ -18,18 +18,28 @@ The project aims to provide a useful set of plugins avoiding in general the ones
     brew install ctags (or use the package manager you like/have)
     gem install gem-browse
     gem install gem-ctags
+    gem install ripper-tags
     gem ctags
 
 3. Generate ctags for Ruby stdlib
-    These are the right directories for rbenv
-    cd ~/.rubies/2.1.2/lib/ruby/site\_ruby/2.1.2
+    These are the right directories for chruby
+    cd ~/.rubies/2.2.2/lib/ruby/site\_ruby/2.2.0
     ctags -R *
-    cd ~/.rubies/2.1.2/lib/ruby/2.1.2
+    cd ~/.rubies/2.2.2/lib/ruby/2.2.0
     ctags -R *
 
 4. Create git hooks to automatically generate ctags on your projects
     cd ~
     mkdir -p .git/hooks
+
+   create ~/.ctags file with the following content
+    --recurse=yes
+    --tag-relative=yes
+    --exclude=.git
+    --exclude=*.min.js
+    --exclude=node_modules
+    --exclude=.tmp
+    --exclude=bower_components/**/*.html
 
    create ctags file with the following content
     #!/bin/sh
@@ -44,7 +54,8 @@ The project aims to provide a useful set of plugins avoiding in general the ones
     mkdir .git/tags_lock 2>/dev/null || exit 0
     trap "rmdir .git/tags_lock; rm -f .git/tags.$$" EXIT
 
-    git ls-files | ctags --tag-relative -f .git/tags.$$ --languages=-sql -L -
+    ripper-tags -R --tag-relative -f .git/tags.$$
+    ctags -aR --tag-relative -f .git/tags.$$ --languages=-sql --exclude="*.rb"
     mv .git/tags.$$ .git/tags
 
    create post-commit file with the following content
