@@ -28,6 +28,9 @@ The project aims to provide a useful set of plugins avoiding in general the ones
     cd ~/.rubies/2.2.2/lib/ruby/2.2.0
     ctags -R *
 
+    or instead of ctags -R * run ...
+    ripper-tags -R --tag-relative -f tags
+
 4. Create git hooks to automatically generate ctags on your projects
     cd ~
     mkdir -p .git/hooks
