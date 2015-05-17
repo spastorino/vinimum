@@ -84,6 +84,11 @@ The project aims to provide a useful set of plugins avoiding in general the ones
 
    Use `git init` in existing repositories to copy these hooks in.
 
+== Update
+
+    git pull
+    git submodule update
+
 == Disable plugins
 
 If you want to disable a bundled plugin (for example gitgutter) create a ~/.vimrc.before with the following content ...
