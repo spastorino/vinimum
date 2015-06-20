@@ -91,6 +91,8 @@ autocmd BufReadPost *
   \   exe "normal g`\"" |
   \ endif
 
+" Turn on spell checking for git commits
+autocmd FileType gitcommit setlocal spell
 
 ""
 "" Wild settings
