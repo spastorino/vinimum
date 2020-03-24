@@ -2,9 +2,7 @@ if executable("rustup") && executable("rustc")
 	let $RUST_SRC_PATH = expand(substitute(system("rustc --print sysroot"), '\n\+$', '', '') . "/lib/rustlib/src/rust/src")
 	let $CARGO_HOME = expand("~/.cargo")
 
-	"Do not use rustfmt for now, not all the projects
-	"out there are using it yet
-	"let g:rustfmt_autosave = 1
+	let g:rustfmt_autosave = 1
 
 	if executable("rls")
 		let g:ale_linters = {'rust': ['rls']}
