@@ -14,16 +14,13 @@ Plug 'morhetz/gruvbox'
 
 " Tools
 Plug 'w0rp/ale'
-Plug 'prabirshrestha/async.vim'
-Plug 'prabirshrestha/asyncomplete.vim'
-Plug 'prabirshrestha/asyncomplete-lsp.vim'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 Plug 'junegunn/fzf.vim'
 Plug 'SirVer/ultisnips'
 Plug 'jesseleite/vim-agriculture'
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-dispatch'
 Plug 'tpope/vim-fugitive'
-Plug 'prabirshrestha/vim-lsp'
 Plug 'thomasfaingnaert/vim-lsp-ultisnips'
 Plug 'tpope/vim-projectionist'
 Plug 'tpope/vim-rhubarb'
