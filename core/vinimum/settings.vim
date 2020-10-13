@@ -69,4 +69,4 @@ set undodir=~/.vim/tmp/undo/
 "" Ctags
 ""
 
-set tags^=./.git/tags;
+set tags^=./.tags;
