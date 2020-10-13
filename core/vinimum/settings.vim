@@ -6,6 +6,15 @@ set lazyredraw
 set number relativenumber
 set shortmess+=c
 
+
+""
+"" Navigate errors
+""
+
+noremap <C-n> <Cmd>cnext<CR>
+noremap <C-p> <Cmd>cprev<CR>
+
+
 ""
 "" Whitespace
 ""
