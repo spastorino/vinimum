@@ -1,5 +1,5 @@
 if executable("rustup") && executable("rustc")
-	let $RUST_SRC_PATH = expand(substitute(system("rustc --print sysroot"), '\n\+$', '', '') . "/lib/rustlib/src/rust/src")
+	let $RUST_SRC_PATH = expand(substitute(system("rustc --print sysroot"), '\n\+$', '', '') . "/lib/rustlib/src/rust/library")
 	let $CARGO_HOME = expand("~/.cargo")
 
 	let g:rustfmt_autosave = 1
