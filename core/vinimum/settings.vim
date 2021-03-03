@@ -24,6 +24,14 @@ let c_space_errors=1
 
 
 ""
+"" Commands
+""
+
+set exrc
+set secure
+
+
+""
 "" Wild settings
 ""
 
