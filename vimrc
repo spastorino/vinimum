@@ -45,6 +45,9 @@ Plug 'majutsushi/tagbar'
 Plug 'junegunn/fzf.vim'
 Plug 'jesseleite/vim-agriculture'
 
+" Session
+Plug 'tpope/vim-obsession'
+
 " Windows
 Plug 'tpope/vim-vinegar'
 
