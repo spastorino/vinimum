@@ -16,3 +16,6 @@ if executable("rustup") && executable("rustc")
 	endif
 endif
 
+" let g:dispatch_compilers = {
+"       \ 'x.py': 'rustc',
+"       \ '~/src/bin/remote-build.sh ./x.py': 'rustc'}
