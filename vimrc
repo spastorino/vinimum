@@ -87,6 +87,8 @@ Plug 'Shougo/neosnippet.vim'
 Plug 'honza/vim-snippets'
 Plug 'ncm2/ncm2-neosnippet'
 
+Plug 'ron-rs/ron.vim'
+
 call plug#end()
 
 runtime! core/vinimum/*.vim
