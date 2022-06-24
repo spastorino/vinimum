@@ -80,7 +80,6 @@ if !has('nvim')
 endif
 Plug 'ncm2/ncm2-bufword'
 Plug 'ncm2/ncm2-path'
-Plug 'ervandew/supertab'
 
 " Snippets
 Plug 'Shougo/neosnippet.vim'
