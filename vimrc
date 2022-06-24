@@ -64,11 +64,7 @@ Plug 'roxma/vim-tmux-clipboard'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 
 " Language Server support
-Plug 'autozimu/LanguageClient-neovim', {
-    \ 'branch': 'dev',
-    \ 'do': 'make release',
-    \ }
-Plug 'martskins/lcn-settings'
+Plug 'neoclide/coc.nvim', { 'branch': 'release' }
 
 " Autocomplete
 Plug 'ncm2/ncm2'
