@@ -19,7 +19,7 @@ Plug 'peitalin/vim-jsx-typescript', { 'for': 'typescriptreact' }
 Plug 'pangloss/vim-javascript',     { 'for': 'javascript' }
 Plug 'plasticboy/vim-markdown',     { 'for': 'markdown' }
 Plug 'jparise/vim-graphql',         { 'for': 'graphql' }
-Plug 'cespare/vim-toml',            { 'for': 'toml' }
+Plug 'cespare/vim-toml',            { 'for': 'toml', 'branch': 'main' }
 Plug 'stephpy/vim-yaml',            { 'for': 'yaml' }
 
 " Look & Feel
